@@ -12,4 +12,3 @@ Para que a API funcione corretamente é necessário criar um bot no telegram e u
 Para utilizar a API basta que o usuário digite a criptmoeda que deseja rastrear e valor mínimo e máximo para filtro.
 
 ##### **Projeto em Execução** <h5>
-![BotTelegram](./print_telegram.jpg)
