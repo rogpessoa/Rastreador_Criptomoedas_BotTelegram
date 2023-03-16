@@ -16,7 +16,7 @@ class CoinGeckoAPI:
         Funcao que vai retornar um valor True ou False, vai consultar se o status da consulta a API foi 200
         :return: Retorna valor Booleano, se for status 200 operacao foi bem sucesso.
         """
-        print('Verificando se API esta online...')
+        print('Verificando se API está online...')
         url = f'{self.url_base}/ping'
         return requests.get(url).status_code == 200
 
@@ -60,6 +60,6 @@ class TelegramBot:
             text=texto_markdown,
             chat_id=self.chat_id,
             parse_mode=telegram.ParseMode.MARKDOWN)
-
+        print('Mensagem enviada com sucesso...')
 
 
