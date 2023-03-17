@@ -3,10 +3,7 @@ import locale
 from time import sleep
 from classes import CoinGeckoAPI, TelegramBot
 locale.setlocale(locale.LC_ALL, 'pt-BR.UTF-8')
-# #id 1450917837
-# bot = telegram.Bot(token='digite o token')
-# atualizacoes = bot.get_updates()
-# bot.sendMessage(text='Ola, sou o RPCryptoBot', chat_id=digite o chatid)
+
 
 id_moeda = input('Qual moeda deseja rastrear? ')
 valor_minimo = int(input('Qual o valor minimo que deseja rastrear? '))
