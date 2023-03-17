@@ -4,16 +4,16 @@ from time import sleep
 from classes import CoinGeckoAPI, TelegramBot
 locale.setlocale(locale.LC_ALL, 'pt-BR.UTF-8')
 # #id 1450917837
-# bot = telegram.Bot(token='6193371545:AAGUEABND5c6sQoWWxZa-eJA532fNSjeVKw')
+# bot = telegram.Bot(token='digite o token')
 # atualizacoes = bot.get_updates()
-# bot.sendMessage(text='Ola, sou o RPCryptoBot', chat_id=1450917837)
+# bot.sendMessage(text='Ola, sou o RPCryptoBot', chat_id=digite o chatid)
 
 id_moeda = input('Qual moeda deseja rastrear? ')
 valor_minimo = int(input('Qual o valor minimo que deseja rastrear? '))
 valor_maximo = int(input('Qual valor maximo que deseja rastrear? '))
 
 api = CoinGeckoAPI(url_base='https://api.coingecko.com/api/v3/')
-bot_telegram = TelegramBot(token='6193371545:AAGUEABND5c6sQoWWxZa-eJA532fNSjeVKw', chat_id=1450917837)
+bot_telegram = TelegramBot(token='digite o token', chat_id=digite o chatid)
 
 #API ficara rodando sempre, mas sera definido atraves do sleep um tempo para ser verificado novamente
 while True:
